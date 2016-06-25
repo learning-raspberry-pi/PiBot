@@ -35,4 +35,6 @@ while True:
 	       event.key == pygame.K_RIGHT or event.key == pygame.K_LEFT:
 		robot.stop()
 	if event.type == pygame.QUIT:
+	    robot.cleanup()
 	    sys.exit()
+	    

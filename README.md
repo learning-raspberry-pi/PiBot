@@ -3,9 +3,10 @@
 Raspberry Pi robot
 
 ## Robot class initialize
+
 ```python
 import robot as Robot  
-robot = Robot(pin1,pin2,pin3,pin4)
+robot = Robot(Motor1A, Motor1B, Motor2A, Motor2B)
 ```
 
 ## Robot functions
